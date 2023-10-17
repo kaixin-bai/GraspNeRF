@@ -73,3 +73,18 @@ If you find our work useful in your research, please consider citing:
 If you have any questions, please open a github issue or contact us:
 
 Qiyu Dai: qiyudai@pku.edu.cn, Yan Zhu: zhuyan_@stu.pku.edu.cn, He Wang: hewang@pku.edu.cn
+
+
+# read and notes
+## 安装
+```bash
+cd GraspNerf
+git checkout -b read-and-notes
+
+conda create -n graspnerf python=3.8
+conda activate graspnerf
+conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
+pip install -r requirements.txt
+inplace-abn
+```
+检查并备份requ

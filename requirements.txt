@@ -1,7 +1,7 @@
-torch
+# torch
 tensorflow
 easydict
-inplace-abn
+# inplace-abn
 plyfile
 numpy
 scikit-image
@@ -14,8 +14,8 @@ scipy
 lpips
 transforms3d
 kornia
-sklearn
-catkin_pkg
+# sklearn
+# catkin_pkg
 black
 jupyterlab
 pandas
